@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "rhinogram-4faed",
+  "private_key_id": "c751c49031bbc528f1f26123b34f19bb04134a5d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvkWzYAQGbwZ7W\nhvXIxNE/zzx1uOKXM+vWbaFrVFkOGHEf8ZReSzjPL+9d7YphuiVNe6R5UCr39aau\nzhOuhA1syVw3YibpCNxLax5zrWurxt+5+uOcv4uhx4/N7b7bR4NBR/mA64hc6QDt\nKu7AFchal1i1yNuOIyFNPKrFWyP5RmDoM+sYlqs4/gl5YksV97E//7gc4wgJiFNw\nc4WI3BD8WNoSnkcfmNXB1E16BKsk7hVVX4iIbBennScgjdzCjpjVth8X9kohEC7A\nq3zu+BjCAzt+nhOZpsA3HQnYLgXTolKbwE/Hot+WvvZegVP1kQKJzWXTZJLwG7a+\nQcpfY88tAgMBAAECggEADhhn65VJxAUWORp3kqbB4Z8uzIkWALYtgxcPpy6L13ly\nYZ0TVe5bm/9joWqgBMsSp3HGXr/8hyZM0MrLjTldsOQfWB9JnkV0wZr9bvjsxKCF\nlz3zjALb1Wv7GWPIQidvvAFo4GcTLlm9ljeaGJ1XFcuCAYGOpk7J478mZbcKFb86\nLFDumNIXCzypY7mo7NZoyglArcD2Mt3yUilGBGSVu0xn/vuDCrT7qxxZEPSMfQ2a\nTd5vaA8/hVgYW2LIeh++H0xO0GNWSyapNg1TCHPsL+SmUSGVczsNaFLsni4AMqWD\nsYQ3Zbm46d7mEYqayEiC8VNra5vv8Bxtd+fHcmlB0QKBgQDmQFwBNUhDc09ZunBJ\nxm0W2NyTDBTQzatlVk7c/oFUpjm+tu7yDJnSFW0YJvOUlWokd6EW5tQHrLMo8Cn0\ni5fdfz/9Lo7PHbptfxkogEljiXLh2o1/lThKszT2qS6x9mXGNjKQ2NCfT7sIpwwd\nZEQQk8TfK9iJvoJS5wTnDt2avQKBgQDDM5ckdbLgIK5DQoRa0an2gz3J9rc+uQpB\nPD/fNTlp1gxDYs/5ayxXlfj9L8tyJ+znYDlKlQeQBbObjQrADxa8CHvYC2odgOw2\nsqe83CQiBoryiEJru3UnjF1JXhbWd1TVt7UOBxszqtO/T6tVbZoqSFbU5dDIUp0g\n5GH/j7mFMQKBgESfMcx6YMsZdrC7S/Pw21pPz41TsHB6m3ZcPqzGfS0JTXR1eMlS\n0BU4pYbpNPc3gKbVsIDu0opnAg5VZWuont44qo1+brlzlrhDhO/5K+YqdL6zMDCx\n/FDnEAXjbjNDyBlG1dMtix+v14JApu+rjk2SfL42hxamXJjwmRlz6L/RAoGAYodP\n6x9dwrO8Qkb4976Mw9lK/v6BUC+mdXcr5ka/TCS22+ysfYETSMJyg5n0XxK4CbIQ\nOQ0wXAoEtqdinb8AArlliY95aJsCoDldYX7c3i/fQrx0ilx8rhGzpKzRaj+hmp63\nzPTZTiMT7qUQHnbMMjuBWMUHtZW9qjSdIpoxUoECgYEAlcIAIL2LypVHK1yAyHh+\nxwhS3kIg+FfBtmm32EvmhGGcM6QlcSixCEvEjTRfNv+omuwfsr/kqX9T7p4am5YY\nKexbLNeAnuLxV5aSeylzE//ZFzHanzXN9ZA/xsnbS4c6in0yF9xS+9JmZIdbLjpc\nXu9mvoCEtCILn4u4mAaRU2c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-4fkvg@rhinogram-4faed.iam.gserviceaccount.com",
+  "client_id": "103095077145838667244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4fkvg%40rhinogram-4faed.iam.gserviceaccount.com",
+  "databaseURL": "https://rhinogram-4faed.firebaseio.com"
+}

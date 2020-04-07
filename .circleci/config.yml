@@ -1,0 +1,72 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:8.10.0
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
+
+    working_directory: ~/development/rhinogram
+    parallelism: 1
+
+    environment:
+      # Circle CI stuff
+      CC_TEST_REPORTER_ID:
+      # This is set to -1 during npm test
+      LOG_LEVEL: -1
+      # Firebase Admin Settings
+      FIREBASE_TYPE: service_account,
+      FIREBASE_PROJECT_ID: rhinogram-4faed,
+      FIREBASE_PRIVATE_KEY_ID: c751c49031bbc528f1f26123b34f19bb04134a5d,
+      FIREBASE_PRIVATE_KEY: -----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvkWzYAQGbwZ7W\nhvXIxNE/zzx1uOKXM+vWbaFrVFkOGHEf8ZReSzjPL+9d7YphuiVNe6R5UCr39aau\nzhOuhA1syVw3YibpCNxLax5zrWurxt+5+uOcv4uhx4/N7b7bR4NBR/mA64hc6QDt\nKu7AFchal1i1yNuOIyFNPKrFWyP5RmDoM+sYlqs4/gl5YksV97E//7gc4wgJiFNw\nc4WI3BD8WNoSnkcfmNXB1E16BKsk7hVVX4iIbBennScgjdzCjpjVth8X9kohEC7A\nq3zu+BjCAzt+nhOZpsA3HQnYLgXTolKbwE/Hot+WvvZegVP1kQKJzWXTZJLwG7a+\nQcpfY88tAgMBAAECggEADhhn65VJxAUWORp3kqbB4Z8uzIkWALYtgxcPpy6L13ly\nYZ0TVe5bm/9joWqgBMsSp3HGXr/8hyZM0MrLjTldsOQfWB9JnkV0wZr9bvjsxKCF\nlz3zjALb1Wv7GWPIQidvvAFo4GcTLlm9ljeaGJ1XFcuCAYGOpk7J478mZbcKFb86\nLFDumNIXCzypY7mo7NZoyglArcD2Mt3yUilGBGSVu0xn/vuDCrT7qxxZEPSMfQ2a\nTd5vaA8/hVgYW2LIeh++H0xO0GNWSyapNg1TCHPsL+SmUSGVczsNaFLsni4AMqWD\nsYQ3Zbm46d7mEYqayEiC8VNra5vv8Bxtd+fHcmlB0QKBgQDmQFwBNUhDc09ZunBJ\nxm0W2NyTDBTQzatlVk7c/oFUpjm+tu7yDJnSFW0YJvOUlWokd6EW5tQHrLMo8Cn0\ni5fdfz/9Lo7PHbptfxkogEljiXLh2o1/lThKszT2qS6x9mXGNjKQ2NCfT7sIpwwd\nZEQQk8TfK9iJvoJS5wTnDt2avQKBgQDDM5ckdbLgIK5DQoRa0an2gz3J9rc+uQpB\nPD/fNTlp1gxDYs/5ayxXlfj9L8tyJ+znYDlKlQeQBbObjQrADxa8CHvYC2odgOw2\nsqe83CQiBoryiEJru3UnjF1JXhbWd1TVt7UOBxszqtO/T6tVbZoqSFbU5dDIUp0g\n5GH/j7mFMQKBgESfMcx6YMsZdrC7S/Pw21pPz41TsHB6m3ZcPqzGfS0JTXR1eMlS\n0BU4pYbpNPc3gKbVsIDu0opnAg5VZWuont44qo1+brlzlrhDhO/5K+YqdL6zMDCx\n/FDnEAXjbjNDyBlG1dMtix+v14JApu+rjk2SfL42hxamXJjwmRlz6L/RAoGAYodP\n6x9dwrO8Qkb4976Mw9lK/v6BUC+mdXcr5ka/TCS22+ysfYETSMJyg5n0XxK4CbIQ\nOQ0wXAoEtqdinb8AArlliY95aJsCoDldYX7c3i/fQrx0ilx8rhGzpKzRaj+hmp63\nzPTZTiMT7qUQHnbMMjuBWMUHtZW9qjSdIpoxUoECgYEAlcIAIL2LypVHK1yAyHh+\nxwhS3kIg+FfBtmm32EvmhGGcM6QlcSixCEvEjTRfNv+omuwfsr/kqX9T7p4am5YY\nKexbLNeAnuLxV5aSeylzE//ZFzHanzXN9ZA/xsnbS4c6in0yF9xS+9JmZIdbLjpc\nXu9mvoCEtCILn4u4mAaRU2c=\n-----END PRIVATE KEY-----\n,
+      FIREBASE_CLIENT_EMAIL: firebase-adminsdk-4fkvg@rhinogram-4faed.iam.gserviceaccount.com,
+      FIREBASE_CLIENT_ID: 103095077145838667244,
+      FIREBASE_AUTH_URI: https://accounts.google.com/o/oauth2/auth,
+      FIREBASE_TOKEN_URI: https://oauth2.googleapis.com/token,
+      FIREBASE_AUTH_PROVIDER_X509_CERT_URL: https://www.googleapis.com/oauth2/v1/certs,
+      FIREBASE_CLIENT_X509_CERT_URL: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4fkvg%40rhinogram-4faed.iam.gserviceaccount.com,
+      FIREBASE_DATABASE_URL: https://rhinogram-4faed.firebaseio.com
+
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            # download test reporter as a static binary
+                     curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+                     chmod +x ./cc-test-reporter
+
+      - run: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+        
+      # run tests!
+
+      - run:
+          name: Run tests
+          command: |
+            # notify Code Climate of a pending test report using `before-build`
+            ./cc-test-reporter before-build
+            npm test
+            # upload test report to Code Climate using `after-build`
+            ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?

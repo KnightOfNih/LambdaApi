@@ -1,0 +1,14 @@
+node_modules/
+plugins/
+*.DS_Store
+*.log
+*.swp
+platforms/
+bower_components/
+www/
+temp/
+.idea
+.vscode
+coverage/
+.nyc_output/
+package-lock.json
